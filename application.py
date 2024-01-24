@@ -79,6 +79,7 @@ def submit():
     create_table()
 
     # Insert the data into the database
+    # Chumma oru change
     connection = get_db_connection()
     if connection:
         try:
